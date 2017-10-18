@@ -19,6 +19,6 @@ $(function(){
 		var number1 = parseInt($("#add1").val());
 		var number2 = parseInt($("#add2").val());
 		var result = add(number1, number2);
-		$("#result-box").text("the answer is: " + result);
+		$("#result-box").fadeIn(10).text("the answer is: " + result);
 	});
 });
